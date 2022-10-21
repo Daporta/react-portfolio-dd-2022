@@ -1,0 +1,48 @@
+.skills-content {
+    margin-top: 100px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills-header {
+    display: block;
+    position: relative;
+    width: 100vw;
+    left: 27vw;
+    top: 40px;
+    font-size: 32px
+}
+
+.skills-container {
+    margin-top: 45px;
+    display: flex;
+    width: 75vw;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.skills-container h3 {
+    font-size: 24px;
+}
+
+.skill {
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.list li {
+    font-size: 18px;
+    padding: 3px 0px;
+    font-weight: 200;
+}

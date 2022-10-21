@@ -1,0 +1,68 @@
+.portfolio-content {
+    margin-top: 100px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.portfolio-header {
+    display: block;
+    position: relative;
+    left: 27vw;
+    top: 40px;
+    width: 100vw;
+    font-size: 32px
+}
+
+.portfolio-container {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70vw;
+    height: auto;
+    justify-content: center;
+}
+
+.portfolio-card {
+    height: 325px;
+    width: 250px;
+    border-radius: 15px;
+    margin: 0 45px 90px 45px;
+    background-color: #27032D;
+    box-shadow: 0px 10px 30px 0px rgba(39, 3, 45, 0.3);
+    -webkit-box-shadow: 0px 10px 30px 0px rgba(39, 3, 45, 0.3);
+    -moz-box-shadow: 0px 10px 30px 0px rgba(39, 3, 45, 0.3);
+}
+
+.portfolio-card .portfolio-link {
+    text-decoration: none;
+}
+
+.portfolio-card .image {
+    height: 60%;
+    border-radius: 15px 15px 0 0;
+    background: no-repeat center/300px;
+    z-index: 1;
+}
+
+.portfolio-card .text-area {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    color: #CEC6C6;
+    text-decoration: none;
+}
+
+.portfolio-card .text-area h3 {
+    font-weight: 400;
+}
+
+.portfolio-card .text-area p {
+    font-weight: 200;
+    font-style: italic;
+}
+
