@@ -9,7 +9,7 @@ import { faGithub, faLinkedin, faTelegram } from '@fortawesome/free-brands-svg-i
 const Navbar = () => {
 
     return (
-      <div className="nav-bar">
+      <div className="nav-bar" id="Nav">
         <Link className="nav-logo logo" to="/">
           <p>
             D<span>D</span>
@@ -38,7 +38,11 @@ const Navbar = () => {
                 rel="noopener noreferrer"
                 href="https://github.com/Daporta"
               >
-                <FontAwesomeIcon icon={faGithub} color="#3B0444" />
+                <FontAwesomeIcon
+                  className="social-icon"
+                  icon={faGithub}
+                  color="#3B0444"
+                />
               </a>
             </li>
             <li>
@@ -47,7 +51,11 @@ const Navbar = () => {
                 rel="noopener noreferrer"
                 href="https://www.linkedin.com/in/danieldaporta/?locale=en_US"
               >
-                <FontAwesomeIcon icon={faLinkedin} color="#3B0444" />
+                <FontAwesomeIcon
+                  className="social-icon"
+                  icon={faLinkedin}
+                  color="#3B0444"
+                />
               </a>
             </li>
             <li>
@@ -56,7 +64,11 @@ const Navbar = () => {
                 rel="noopener noreferrer"
                 href="https://t.me/daportad"
               >
-                <FontAwesomeIcon icon={faTelegram} color="#3B0444" />
+                <FontAwesomeIcon
+                  className="social-icon"
+                  icon={faTelegram}
+                  color="#3B0444"
+                />
               </a>
             </li>
           </ul>
