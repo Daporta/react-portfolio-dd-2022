@@ -113,6 +113,19 @@
 
     .left-side {
         margin: 0;
+        width: 300px;
+    }
+
+    .left-side h1 {
+        font-size: 36px;
+    }
+
+    .left-side h2 {
+        font-size: 24px;
+    }
+
+    .download-button a {
+        padding: 30px 80px;
     }
 
     .right-side {
