@@ -1,7 +1,6 @@
 .skills-content {
     margin-top: 100px;
     height: 100vh;
-    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,14 +17,15 @@
 
 .skills-container {
     margin-top: 45px;
+    margin-bottom: 200px;
     display: flex;
     width: 75vw;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: flex-start;
 }
 
 .skills-container h3 {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
 }
 
@@ -33,7 +33,7 @@
     width: 28%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .list {
@@ -43,7 +43,30 @@
 }
 
 .list li {
-    font-size: 18px;
-    padding: 3px 0px;
+    font-size: 16px;
+    padding: 1px 0px;
     font-weight: 200;
+    list-style-type: lower-latin;
+    list-style-position: outside;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .skills-content {
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    
+    .skills-container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0px;
+    }
+
+    .skills-header {
+        position: inherit;
+        margin-top: 65px;
+        text-align: center;
+    }
+
 }

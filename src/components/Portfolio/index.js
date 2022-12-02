@@ -5,33 +5,40 @@ const Portfolio = () => {
 
   const data = [
     {
+      link: "https://dd-todoapp.netlify.app/",
+      img: require("./images/TodoApp.png"),
+      titulo: "ToDo App",
+      tags: ["HTML5", "CSS3", "JavaScript", "React"],
+    },
+
+    {
       link: "https://dd-advice-generator-app.netlify.app/",
       img: require("./images/AdviceGenerator.png"),
-      titulo: 'Advice Generator',
-      tags: ['HTML5', 'CSS3', 'JavaScript', 'API']
+      titulo: "Advice Generator",
+      tags: ["HTML5", "CSS3", "JavaScript", "API"],
     },
 
     {
       link: "https://dd-expenses-chart-component.netlify.app/",
       img: require("./images/ExpensesChart.png"),
-      titulo: 'Expenses Chart',
-      tags: ['HTML5', 'CSS3', 'JavaScript']
+      titulo: "Expenses Chart",
+      tags: ["HTML5", "CSS3", "JavaScript"],
     },
 
     {
       link: "https://dd-rate-component.netlify.app/",
       img: require("./images/RatingComponent.png"),
-      titulo: 'Rate Component',
-      tags: ['HTML5', 'CSS3', 'JavaScript']
+      titulo: "Rate Component",
+      tags: ["HTML5", "CSS3", "JavaScript"],
     },
 
     {
       link: "https://dd-single-price-card-component.netlify.app/",
       img: require("./images/PriceCard.png"),
-      titulo: 'Price Card Component',
-      tags: ['HTML5', 'CSS3']
-    }
-  ]
+      titulo: "Price Card Component",
+      tags: ["HTML5", "CSS3"],
+    },
+  ];
 
     return (
       <div className="portfolio-content">

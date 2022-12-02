@@ -1,6 +1,7 @@
 .bg-home {
     background: url('./images/bg.jpg') center no-repeat;
-    box-shadow: inset 0 0 0 1000px rgba(59, 4, 68, 0.5);
+    box-shadow: inset 0 0 0 1000px rgba(42, 2, 48, 0.5);
+    background-size: 2000px 1407px;
 }
 
 .nav-home {
@@ -12,32 +13,46 @@
 }
 
 .page-content {
-    min-height: 100vh;
-    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .left-side {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 350px;
+    width: 400px;
     margin-top: 100px;
     margin-right: 50px;
 }
 
 .left-side h1 {
     font-size: 48px;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
     margin-bottom: 0px;
     margin-top: -20px;
     color: #CEC6C6;
     font-weight: 600;
 }
 
-.left-side h1 span {
+.left-side h2 {
+    font-size: 28px;
+    margin-top: -15px;
+    margin-left: 125px;
+    color: #CEC6C6;
+    font-weight: 400;
+}
+
+.left-side h1 span, 
+.left-side h2 span {
     color: #C23AD8;
 }
 
@@ -45,6 +60,8 @@
     margin-bottom: 30px;
     color: #CEC6C6;
     font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
 }
 
 .download-button {
@@ -57,6 +74,22 @@
     font-weight: 600;
     font-size: 16px;
     border-radius: 10px;
+    border-style: solid;
+    transition: all 0.10s linear;
+}
+
+.download-button a {
+    padding: 30px 137px;
+    color: #C23AD8;
+    text-decoration: none;
+}
+
+.download-button a:visited {
+    color: #C23AD8;
+}
+
+.download-button:active {
+    transform: translateY(5px);
 }
 
 .right-side {
@@ -65,7 +98,31 @@
     margin-left: 50px;
 }
 
-.right-side img {
-    width: 90%;
-    height: 100%;
+.right-side div {
+    height: 650px;
+    background: url('./images/Photo.jpg') center no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .container {
+        flex-direction: column-reverse;
+        margin-bottom: 25px;
+    }
+
+    .left-side {
+        margin: 0;
+    }
+
+    .right-side {
+        margin-top: 100px;
+    }
+
+    .right-side div {
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        margin: 50px 0 50px 25px;
+    }
 }

@@ -3,7 +3,7 @@ import React from 'react';
 
 const Skills = () => {
 
-    const devSkills = ['HTML5', 'CSS3', 'SaSS', 'Tailwind', 'Javascript', 'ReactJS', 'Prisma', 'SQL']
+    const devSkills = ['HTML5', 'CSS3', 'Sass', 'TailwindCSS', 'Javascript', 'JQuery', 'ReactJS', 'Prisma', 'SQL']
 
     const hardSkills = ['GIT', 'Bilingual', 'Math, Algebra & Calculus', 'Microsoft Office', 'Scrum Agile Methodology', 'Databases', 'Algorithms And Data Structure']
 

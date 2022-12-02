@@ -17,15 +17,25 @@ const Navbar = () => {
         </Link>
 
         <nav>
-          <NavLink className="nav-btn home" to="/" end>
+          <NavLink 
+            className="nav-btn home" 
+            to="/" 
+            end
+          >
             <p>Home</p>
           </NavLink>
 
-          <NavLink className="nav-btn portfolio" to="/portfolio">
+          <NavLink 
+            className="nav-btn portfolio" 
+            to="/portfolio"
+          >
             <p>Portfolio</p>
           </NavLink>
 
-          <NavLink className="nav-btn skills" to="/skills">
+          <NavLink 
+            className="nav-btn skills" 
+            to="/skills"
+          >
             <p>Skills</p>
           </NavLink>
         </nav>
