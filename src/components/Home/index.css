@@ -108,7 +108,7 @@
 
     .container {
         flex-direction: column-reverse;
-        margin-bottom: 25px;
+       
     }
 
     .left-side {
@@ -126,6 +126,7 @@
 
     .download-button a {
         padding: 30px 80px;
+        margin-bottom: 25px;
     }
 
     .right-side {
