@@ -22,7 +22,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
 }
 
 .left-side {
@@ -76,6 +75,7 @@
     border-radius: 10px;
     border-style: solid;
     transition: all 0.10s linear;
+    margin-bottom: 25px;
 }
 
 .download-button a {
