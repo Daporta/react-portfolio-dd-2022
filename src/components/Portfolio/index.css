@@ -28,7 +28,7 @@
 }
 
 .portfolio-card {
-    height: 325px;
+    height: 350px;
     width: 250px;
     border-radius: 15px;
     margin: 0 45px 90px 45px;
@@ -53,15 +53,23 @@
     position: relative;
     top: 10px;
     left: 20px;
+    width: 90%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     color: #CEC6C6;
     text-decoration: none;
 }
 
 .portfolio-card .text-area h3 {
+    font-size: 12;
     font-weight: 400;
+    margin-bottom: -10px;
 }
 
 .portfolio-card .text-area p {
+    margin-bottom: 20px;
     font-weight: 200;
     font-style: italic;
 }

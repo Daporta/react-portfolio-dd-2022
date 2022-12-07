@@ -35,7 +35,7 @@ const Portfolio = () => {
     {
       link: "https://dd-single-price-card-component.netlify.app/",
       img: require("./images/PriceCard.png"),
-      titulo: "Grid Card Mosaic Component",
+      titulo: "Grid Card Component",
       tags: ["HTML5", "CSS3"],
     },
   ];
