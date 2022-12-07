@@ -7,35 +7,35 @@ const Portfolio = () => {
     {
       link: "https://dd-todoapp.netlify.app/",
       img: require("./images/TodoApp.png"),
-      titulo: "ToDo App",
+      titulo: "Daily Habit Tracker",
       tags: ["HTML5", "CSS3", "JavaScript", "React"],
     },
 
     {
       link: "https://dd-advice-generator-app.netlify.app/",
       img: require("./images/AdviceGenerator.png"),
-      titulo: "Advice Generator",
+      titulo: "Advice Generator App",
       tags: ["HTML5", "CSS3", "JavaScript", "API"],
     },
 
     {
       link: "https://dd-expenses-chart-component.netlify.app/",
       img: require("./images/ExpensesChart.png"),
-      titulo: "Expenses Chart",
+      titulo: "Expenses Chart - Mini App Component",
       tags: ["HTML5", "CSS3", "JavaScript"],
     },
 
     {
       link: "https://dd-rate-component.netlify.app/",
       img: require("./images/RatingComponent.png"),
-      titulo: "Rate Component",
+      titulo: "Feedback/Review Rating Widget ",
       tags: ["HTML5", "CSS3", "JavaScript"],
     },
 
     {
       link: "https://dd-single-price-card-component.netlify.app/",
       img: require("./images/PriceCard.png"),
-      titulo: "Price Card Component",
+      titulo: "Grid Card Mosaic Component",
       tags: ["HTML5", "CSS3"],
     },
   ];
