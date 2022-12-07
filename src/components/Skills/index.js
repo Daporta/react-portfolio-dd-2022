@@ -7,7 +7,7 @@ const Skills = () => {
 
     const hardSkills = ['GIT', 'Bilingual', 'Math, Algebra & Calculus', 'Microsoft Office', 'Scrum Agile Methodology', 'Databases', 'Algorithms And Data Structure']
 
-    const softSkills = ['Flexibility & Adaptability', 'Empathy', 'Self-Taught Person', 'Effective Communication']
+    const softSkills = ['Flexibility & Adaptability', 'Empathy', 'Self-Taught Person', 'Effective Communication', 'Fast learner', 'Team Player', 'Problem-solver', 'Spanish (Native)', 'English (Fluent)']
 
     return (
       <div className="skills-content">
