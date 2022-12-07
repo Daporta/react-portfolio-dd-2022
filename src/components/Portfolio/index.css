@@ -75,7 +75,9 @@
 }
 
 @media only screen and (max-width: 480px) {
-
+    .portfolio-container {
+        width: 85%;
+    }
     .portfolio-header {
         position: inherit;
         margin-top: 65px;
