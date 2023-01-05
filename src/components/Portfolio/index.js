@@ -5,6 +5,13 @@ const Portfolio = () => {
 
   const data = [
     {
+      link: "https://dd-managelandingpage.netlify.app/",
+      img: require("./images/ManageLandingPage.png"),
+      titulo: "Manage Landing Page",
+      tags: ["HTML5", "CSS3", "JavaScript", "React"],
+    },
+
+    {
       link: "https://dd-todoapp.netlify.app/",
       img: require("./images/TodoApp.png"),
       titulo: "Daily Habit Tracker",
