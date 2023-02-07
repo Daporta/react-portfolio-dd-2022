@@ -5,6 +5,13 @@ const Portfolio = () => {
 
   const data = [
     {
+      link: "https://dd-calendar.netlify.app",
+      img: require("./images/calendar.png"),
+      titulo: "Functional Calendar",
+      tags: ["HTML5", "CSS3", "JavaScript"],
+    },
+
+    {
       link: "https://dd-managelandingpage.netlify.app/",
       img: require("./images/ManageLandingPage.png"),
       titulo: "Manage Landing Page",
